@@ -1,0 +1,101 @@
+generated: '2026-09-07'
+method: probed
+source: direct HTTPS probe of the named /.well-known/ path list on every host in apis.yml
+note: 'Every path on both hosts answers HTTP 202 with a 169-byte SiteGround captcha shell (sg-captcha:
+  challenge, meta-refresh to /.well-known/sgcaptcha/), not a document. No /.well-known/ document is served,
+  so no WellKnown, SecurityTxt or AgentCard pointer is emitted. Recorded absence, not a hit.'
+hosts:
+- host: advancednanotherapies.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 202
+    file: null
+    note: 'not a document: SiteGround bot-challenge HTML shell (sg-captcha) returned for every path on
+      this host'
+  - path: /.well-known/openid-configuration
+    status: 202
+    file: null
+    note: 'not a document: SiteGround bot-challenge HTML shell (sg-captcha) returned for every path on
+      this host'
+  - path: /.well-known/oauth-authorization-server
+    status: 202
+    file: null
+    note: 'not a document: SiteGround bot-challenge HTML shell (sg-captcha) returned for every path on
+      this host'
+  - path: /.well-known/oauth-protected-resource
+    status: 202
+    file: null
+    note: 'not a document: SiteGround bot-challenge HTML shell (sg-captcha) returned for every path on
+      this host'
+  - path: /.well-known/api-catalog
+    status: 202
+    file: null
+    note: 'not a document: SiteGround bot-challenge HTML shell (sg-captcha) returned for every path on
+      this host'
+  - path: /.well-known/ai-plugin.json
+    status: 202
+    file: null
+    note: 'not a document: SiteGround bot-challenge HTML shell (sg-captcha) returned for every path on
+      this host'
+  - path: /.well-known/agent-card.json
+    status: 202
+    file: null
+    note: 'not a document: SiteGround bot-challenge HTML shell (sg-captcha) returned for every path on
+      this host'
+  - path: /.well-known/agent.json
+    status: 202
+    file: null
+    note: 'not a document: SiteGround bot-challenge HTML shell (sg-captcha) returned for every path on
+      this host'
+  - path: /.well-known/aauth-resource.json
+    status: 202
+    file: null
+    note: 'not a document: SiteGround bot-challenge HTML shell (sg-captcha) returned for every path on
+      this host'
+- host: www.advancednanotherapies.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 202
+    file: null
+    note: 'not a document: SiteGround bot-challenge HTML shell (sg-captcha) returned for every path on
+      this host'
+  - path: /.well-known/openid-configuration
+    status: 202
+    file: null
+    note: 'not a document: SiteGround bot-challenge HTML shell (sg-captcha) returned for every path on
+      this host'
+  - path: /.well-known/oauth-authorization-server
+    status: 202
+    file: null
+    note: 'not a document: SiteGround bot-challenge HTML shell (sg-captcha) returned for every path on
+      this host'
+  - path: /.well-known/oauth-protected-resource
+    status: 202
+    file: null
+    note: 'not a document: SiteGround bot-challenge HTML shell (sg-captcha) returned for every path on
+      this host'
+  - path: /.well-known/api-catalog
+    status: 202
+    file: null
+    note: 'not a document: SiteGround bot-challenge HTML shell (sg-captcha) returned for every path on
+      this host'
+  - path: /.well-known/ai-plugin.json
+    status: 202
+    file: null
+    note: 'not a document: SiteGround bot-challenge HTML shell (sg-captcha) returned for every path on
+      this host'
+  - path: /.well-known/agent-card.json
+    status: 202
+    file: null
+    note: 'not a document: SiteGround bot-challenge HTML shell (sg-captcha) returned for every path on
+      this host'
+  - path: /.well-known/agent.json
+    status: 202
+    file: null
+    note: 'not a document: SiteGround bot-challenge HTML shell (sg-captcha) returned for every path on
+      this host'
+  - path: /.well-known/aauth-resource.json
+    status: 202
+    file: null
+    note: 'not a document: SiteGround bot-challenge HTML shell (sg-captcha) returned for every path on
+      this host'
